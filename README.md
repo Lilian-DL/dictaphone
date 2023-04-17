@@ -1,16 +1,10 @@
 # dictaphone
 
-A new Flutter project.
+![Screenshot_2023-04-17-02-05-11-640_com example dictaphone](https://user-images.githubusercontent.com/58983575/232351742-8039f5ed-3a24-4105-b4db-29a711f16a88.jpg)
 
-## Getting Started
+![Screenshot_2023-04-17-02-04-52-395_com example dictaphone](https://user-images.githubusercontent.com/58983575/232351769-beccd027-cda4-438b-8f36-08065e64ee17.jpg)
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
+Create and stop an audio with the floating action button
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+![Screenshot_2023-04-17-02-04-57-673_com example dictaphone](https://user-images.githubusercontent.com/58983575/232351681-c80ffcf8-3ade-4dd8-b665-0f5d711b1632.jpg)
