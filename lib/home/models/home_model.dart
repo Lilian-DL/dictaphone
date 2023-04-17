@@ -7,7 +7,7 @@ import 'package:permission_handler/permission_handler.dart';
 class HomeModel extends ChangeNotifier {
   List<File> _audioList = [];
   bool _isRecordedReady = false;
-  final FlutterSoundRecorder _recorder = FlutterSoundRecorder();
+  FlutterSoundRecorder _recorder = FlutterSoundRecorder();
 
   HomeModel() {
     initRecorder();
@@ -15,7 +15,7 @@ class HomeModel extends ChangeNotifier {
 
   @override
   void dispose() {
-    _recorder.closeRecorder();
+    _recorder.stopRecorder();
     super.dispose();
   }
 
@@ -42,7 +42,7 @@ class HomeModel extends ChangeNotifier {
 
   Future record() async {
     if (!isRecordedReady) return;
-    await _recorder.startRecorder(toFile: 'audio');
+    await _recorder.startRecorder(toFile: 'audio${_audioList.length + 1}');
     notifyListeners();
   }
 
